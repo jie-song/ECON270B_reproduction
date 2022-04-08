@@ -1,0 +1,17 @@
+\setlength{\linewidth}{.1cm} \begin{center} 
+\newcommand{\contents}{\begin{tabular}{l c} 
+\hline \hline
+                    & Share of non-agricultural  \\
+                    & manual laborers in sector  \\
+\cline{1-2}                                                                     
+Construction        & $$constr_share$$           \\
+Transport           & $$transport_share$$        \\
+Retail              & $$retail_share$$           \\        
+Domestic work       & $$domestic_share$$         \\               
+Building materials  & $$manuf_brick_share$$      \\
+Other               & $$other_share$$            \\                       
+\hline
+\multicolumn{2}{p{\linewidth}}{\footnotesize \tablenote}
+\end{tabular} }
+\setbox0=\hbox{\contents}
+\setlength{\linewidth}{\wd0-2\tabcolsep-.25em} \contents \end{center}

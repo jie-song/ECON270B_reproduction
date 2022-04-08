@@ -1,0 +1,35 @@
+\setlength{\linewidth}{.1cm} \begin{center} 
+\newcommand{\contents}{\begin{tabular}{l c c c c c c} 
+
+    \multicolumn{7}{l}{\textit{Panel A. Agricultural yields (log)}}                  \\ 
+\hline \hline
+                    &\multicolumn{3}{c}{NDVI} &\multicolumn{3}{c}{EVI}\\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+                    & Max - June        & Cumulative           & Max           & Max - June        & Cumulative           & Max                 \\
+\cline{1-7}                                                                                                                                                      
+New road            & 0.017   & 0.000       & 0.011  & 0.035   & -0.001       & 0.022        \\
+                    &(0.026)    &(0.013)        &(0.014)   &(0.033)    &(0.015)        &(0.019)         \\
+\cline{1-7}  
+Control group mean  & 8.236   & 10.507       & 8.801  & 7.957   & 10.159       & 8.470        \\
+Control group SD    & 0.273     & 0.218         & 0.181    & 0.336     & 0.222         & 0.195          \\
+N                   & 11333      & 11332          & 11333     & 11333      & 11332          & 11333           \\
+R2                  & 0.71     & 0.89         & 0.82    & 0.72     & 0.86         & 0.72          \\
+\cline{1-7} \\
+
+\multicolumn{6}{l}{\textit{Panel B. Agricultural inputs}}                                                                       \\ 
+\hhline{>{\doublerulesepcolor{white}}======}
+                    & Mechanized Farm     &  Irrigation                       & Land Ownership        &  Non-cereal/pulse  & Cultivated land  \\
+                    & Equipment           &  Equipment                        &                       &  crop              & (log)            \\
+\cline{1-6}
+New road            & -0.004       & 0.002       & 0.006     & 0.030     & 0.040       \\
+                    & (0.012)       & (0.028)       & (0.036)     & (0.073)     & (0.081)       \\
+\cline{1-6}
+Control group mean  & 0.040       & 0.141       & 0.570     & 0.393     & 5.046       \\
+N                   & 11431          & 11432          & 11432        & 8272        & 11165          \\
+R2                  & 0.26         & 0.43         & 0.39       & 0.45       & 0.73         \\
+\cline{1-6}
+
+\multicolumn{6}{p{\linewidth}}{\footnotesize \tablenote}
+\end{tabular} }
+\setbox0=\hbox{\contents}
+\setlength{\linewidth}{\wd0-2\tabcolsep-.25em} \contents \end{center}

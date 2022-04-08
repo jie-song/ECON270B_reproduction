@@ -1,0 +1,35 @@
+\setlength{\linewidth}{.1cm} \begin{center}
+\newcommand{\contents}{\begin{tabular}{l*{3}{c}}
+\hline\hline
+                                       &\multicolumn{1}{c}{No Road}&\multicolumn{1}{c}{Paved Road}&\multicolumn{1}{c}{Total}\\
+\hline
+Primary school                         & $$primary_school_mean0$$ & $$primary_school_mean1$$ & $$primary_school_mean$$ \\
+                                       & ($$primary_school_sd0$$) & ($$primary_school_sd1$$) & ($$primary_school_sd$$) \\
+[1em]
+Medical center                         & $$med_center_mean0$$ & $$med_center_mean1$$ & $$med_center_mean$$ \\
+                                       & ($$med_center_sd0$$) & ($$med_center_sd1$$) & ($$med_center_sd$$) \\
+[1em]
+Electrified                            & $$electric_mean0$$ & $$electric_mean1$$ & $$electric_mean$$ \\
+                                       & ($$electric_sd0$$) & ($$electric_sd1$$) & ($$electric_sd$$) \\
+[1em]
+Crop land irrigated share              & $$irr_share_mean0$$ & $$irr_share_mean1$$ & $$irr_share_mean$$ \\
+                                       & ($$irr_share_sd0$$) & ($$irr_share_sd1$$) & ($$irr_share_sd$$) \\
+[1em]
+Literate share                         & $$pc01_lit_share_mean0$$ & $$pc01_lit_share_mean1$$ & $$pc01_lit_share_mean$$ \\
+                                       & ($$pc01_lit_share_sd0$$) & ($$pc01_lit_share_sd1$$) & ($$pc01_lit_share_sd$$) \\
+[1em]
+Scheduled caste share                  & $$pc01_sc_share_mean0$$ & $$pc01_sc_share_mean1$$ & $$pc01_sc_share_mean$$ \\
+                                       & ($$pc01_sc_share_sd0$$) & ($$pc01_sc_share_sd1$$) & ($$pc01_sc_share_sd$$) \\
+[1em]
+Distance from nearest town             & $$pc01_vd_dist_town_mean0$$ & $$pc01_vd_dist_town_mean1$$ & $$pc01_vd_dist_town_mean$$ \\
+(in km)                                & ($$pc01_vd_dist_town_sd0$$) & ($$pc01_vd_dist_town_sd1$$) & ($$pc01_vd_dist_town_sd$$) \\
+[1em]
+Population                             & $$pc01_pca_tot_p_mean0$$ & $$pc01_pca_tot_p_mean1$$ & $$pc01_pca_tot_p_mean$$ \\
+                                       & ($$pc01_pca_tot_p_sd0$$) & ($$pc01_pca_tot_p_sd1$$) & ($$pc01_pca_tot_p_sd$$) \\
+[1em]
+Number of villages                     & $$count0$$ & $$count1$$ & $$count$$ \\
+\hline
+\multicolumn{4}{p{\linewidth}}{\footnotesize \tablenote}
+\end{tabular} }
+\setbox0=\hbox{\contents}
+\setlength{\linewidth}{\wd0-2\tabcolsep-.25em} \contents \end{center}

@@ -1,0 +1,117 @@
+all_p, 0.09
+all_beta, 0.273
+all_starbeta,0.273*
+all_se, 0.159
+all_n,10678
+all_r2, 0.30
+all_lev_p, 0.58
+all_lev_beta, 4.219
+all_lev_starbeta, 4.219
+all_lev_se, 7.596
+all_lev_n,10678
+all_lev_r2, 0.30
+all_lev_mean, 32.1
+ag_p, 0.22
+ag_beta, 0.265
+ag_starbeta, 0.265
+ag_se, 0.214
+ag_n,10678
+ag_r2, 0.39
+ag_lev_p, 0.94
+ag_lev_beta, 0.407
+ag_lev_starbeta, 0.407
+ag_lev_se, 5.328
+ag_lev_n,10678
+ag_lev_r2, 0.38
+ag_lev_mean, 10.5
+t_noag_p, 0.19
+t_noag_beta, 0.257
+t_noag_starbeta, 0.257
+t_noag_se, 0.195
+t_noag_n,10678
+t_noag_r2, 0.23
+t_noag_lev_p, 0.52
+t_noag_lev_beta, 2.490
+t_noag_lev_starbeta, 2.490
+t_noag_lev_se, 3.844
+t_noag_lev_n,10678
+t_noag_lev_r2, 0.18
+t_noag_lev_mean,  6.0
+nt_p, 0.03
+nt_beta, 0.291
+nt_starbeta,0.291**
+nt_se, 0.136
+nt_n,10678
+nt_r2, 0.21
+nt_lev_p, 0.66
+nt_lev_beta, 1.323
+nt_lev_starbeta, 1.323
+nt_lev_se, 2.982
+nt_lev_n,10678
+nt_lev_r2, 0.18
+nt_lev_mean, 15.6
+act2_p, 0.18
+act2_beta, 0.252
+act2_starbeta, 0.252
+act2_se, 0.188
+act2_n,10678
+act2_r2, 0.42
+act2_lev_p, 0.56
+act2_lev_beta,-1.962
+act2_lev_starbeta,-1.962
+act2_lev_se, 3.364
+act2_lev_n,10678
+act2_lev_r2, 0.46
+act2_lev_mean,  6.9
+act3_p, 0.32
+act3_beta,-0.107
+act3_starbeta,-0.107
+act3_se, 0.107
+act3_n,10678
+act3_r2, 0.35
+act3_lev_p, 0.55
+act3_lev_beta, 2.381
+act3_lev_starbeta, 2.381
+act3_lev_se, 4.002
+act3_lev_n,10678
+act3_lev_r2, 0.36
+act3_lev_mean,  2.8
+act6_p, 0.18
+act6_beta, 0.260
+act6_starbeta, 0.260
+act6_se, 0.193
+act6_n,10678
+act6_r2, 0.23
+act6_lev_p, 0.46
+act6_lev_beta, 2.802
+act6_lev_starbeta, 2.802
+act6_lev_se, 3.794
+act6_lev_n,10678
+act6_lev_r2, 0.18
+act6_lev_mean,  5.8
+act12_p, 0.03
+act12_beta, 0.333
+act12_starbeta,0.333**
+act12_se, 0.154
+act12_n,10678
+act12_r2, 0.23
+act12_lev_p, 0.23
+act12_lev_beta, 1.831
+act12_lev_starbeta, 1.831
+act12_lev_se, 1.534
+act12_lev_n,10678
+act12_lev_r2, 0.17
+act12_lev_mean,  4.5
+act20_p, 0.16
+act20_beta, 0.198
+act20_starbeta, 0.198
+act20_se, 0.143
+act20_n,10678
+act20_r2, 0.18
+act20_lev_p, 0.48
+act20_lev_beta, 0.686
+act20_lev_starbeta, 0.686
+act20_lev_se, 0.973
+act20_lev_n,10678
+act20_lev_r2, 0.13
+act20_lev_mean,  5.1

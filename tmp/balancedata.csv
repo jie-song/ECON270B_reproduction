@@ -1,0 +1,121 @@
+primary_school_mean,0.956
+N_mean,     11432
+primary_school_bt,0.951
+N_bt,      6018
+primary_school_ot,0.961
+N_ot,      5414
+primary_school_dm, 0.01
+primary_school_pv, 0.01
+primary_school_p, 0.72
+primary_school_beta,-0.012
+primary_school_starbeta,-0.012
+med_center_mean,0.163
+N_mean,     11432
+med_center_bt,0.153
+N_bt,      6018
+med_center_ot,0.175
+N_ot,      5414
+med_center_dm, 0.02
+med_center_pv, 0.00
+med_center_p, 0.15
+med_center_beta,-0.092
+med_center_starbeta,-0.092
+elect_mean,0.425
+N_mean,     11432
+elect_bt,0.408
+N_bt,      6018
+elect_ot,0.443
+N_ot,      5414
+elect_dm, 0.04
+elect_pv, 0.00
+elect_p, 0.99
+elect_beta,-0.001
+elect_starbeta,-0.001
+tdist_mean,26.782
+N_mean,     11432
+tdist_bt,26.811
+N_bt,      6018
+tdist_ot,26.749
+N_ot,      5414
+tdist_dm,-0.06
+tdist_pv, 0.88
+tdist_p, 0.17
+tdist_beta,-4.818
+tdist_starbeta,-4.818
+irr_share_mean,0.281
+N_mean,     11432
+irr_share_bt,0.275
+N_bt,      6018
+irr_share_ot,0.288
+N_ot,      5414
+irr_share_dm, 0.01
+irr_share_pv, 0.01
+irr_share_p, 0.64
+irr_share_beta,-0.020
+irr_share_starbeta,-0.020
+ln_land_mean,5.160
+N_mean,     11432
+ln_land_bt,5.107
+N_bt,      6018
+ln_land_ot,5.220
+N_ot,      5414
+ln_land_dm, 0.11
+ln_land_pv, 0.00
+ln_land_p, 0.36
+ln_land_beta,-0.093
+ln_land_starbeta,-0.093
+pc01_lit_share_mean,0.456
+N_mean,     11432
+pc01_lit_share_bt,0.452
+N_bt,      6018
+pc01_lit_share_ot,0.460
+N_ot,      5414
+pc01_lit_share_dm, 0.01
+pc01_lit_share_pv, 0.01
+pc01_lit_share_p, 0.76
+pc01_lit_share_beta,-0.007
+pc01_lit_share_starbeta,-0.007
+pc01_sc_share_mean,0.142
+N_mean,     11432
+pc01_sc_share_bt,0.141
+N_bt,      6018
+pc01_sc_share_ot,0.144
+N_ot,      5414
+pc01_sc_share_dm, 0.00
+pc01_sc_share_pv, 0.28
+pc01_sc_share_p, 0.49
+pc01_sc_share_beta,-0.021
+pc01_sc_share_starbeta,-0.021
+bpl_landed_share_mean,0.736
+N_mean,     11432
+bpl_landed_share_bt,0.737
+N_bt,      6018
+bpl_landed_share_ot,0.734
+N_ot,      5414
+bpl_landed_share_dm,-0.00
+bpl_landed_share_pv, 0.48
+bpl_landed_share_p, 0.90
+bpl_landed_share_beta,0.004
+bpl_landed_share_starbeta,0.004
+bpl_inc_source_sub_share_mean,0.440
+N_mean,     11432
+bpl_inc_source_sub_share_bt,0.443
+N_bt,      6018
+bpl_inc_source_sub_share_ot,0.436
+N_ot,      5414
+bpl_inc_source_sub_share_dm,-0.01
+bpl_inc_source_sub_share_pv, 0.18
+bpl_inc_source_sub_share_p, 0.54
+bpl_inc_source_sub_share_beta,0.024
+bpl_inc_source_sub_share_starbeta,0.024
+bpl_inc_250plus_mean,0.757
+N_mean,     11432
+bpl_inc_250plus_bt,0.755
+N_bt,      6018
+bpl_inc_250plus_ot,0.759
+N_ot,      5414
+bpl_inc_250plus_dm, 0.00
+bpl_inc_250plus_pv, 0.43
+bpl_inc_250plus_p, 0.53
+bpl_inc_250plus_beta,-0.029
+bpl_inc_250plus_starbeta,-0.029

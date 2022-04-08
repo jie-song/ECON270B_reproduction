@@ -1,0 +1,43 @@
+\setlength{\linewidth}{.1cm} \begin{center} 
+\newcommand{\contents}{\begin{tabular}{l c c c c c c c c} 
+%\newcommand{\contents}{\begin{tabular}{l*{4}{c}}
+
+\multicolumn{9}{l}{\textit{Panel A. NDVI/EVI on village proxies of agricultural productivity}} \\ 
+\hline \hline 
+\vspace{-.7mm}
+                       & \multicolumn{4}{c}{NDVI} & \multicolumn{4}{c}{EVI}\\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+                       & (1)                          & (2)                                 & (3)                                 & (4)                             & (5)                         & (6)                                & (7)                                & (8)                            \\
+\hline                                                                                                                                                                                                                                                                                                       
+Crop suitability (log) & $$ndvi_cropsuit_beta$$   &                                     &                                     & $$ndvi_cropsuit_all_beta$$  & $$evi_cropsuit_beta$$   &                                    &                                    & $$evi_cropsuit_all_beta$$ \\
+                       & ($$ndvi_cropsuit_se$$)       &                                     &                                     & ($$ndvi_cropsuit_all_se$$)      & ($$evi_cropsuit_se$$)       &                                    &                                    & ($$evi_cropsuit_all_se$$)     \\
+                       &                              &                                     &                                     &                                 &                             &                                    &                                    &                                 \\
+Irrigation (share)     &                              &  $$ndvi_irr_beta$$              &                                     & $$ndvi_irr_all_beta$$       &                             &  $$evi_irr_beta$$              &                                    & $$evi_irr_all_beta$$      \\
+                       &                              &  ($$ndvi_irr_se$$)                  &                                     & ($$ndvi_irr_all_se$$)           &                             &  ($$evi_irr_se$$)                  &                                    & ($$evi_irr_all_se$$)          \\
+                       &                              &                                     &                                     &                                 &                             &                                    &                                    &                                 \\
+Consumption (log)      &                              &                                     & $$ndvi_cons_beta$$              & $$ndvi_cons_all_beta$$      &                             &                                    & $$evi_cons_beta$$              & $$evi_cons_all_beta$$     \\
+                       &                              &                                     & ($$ndvi_cons_se$$)                  & ($$ndvi_cons_all_se$$)          &                             &                                    & ($$evi_cons_se$$)                  & ($$evi_cons_all_se$$)         \\
+\hline                                                                                                                                                                                                                                                                                                          
+N                      & $$ndvi_cropsuit_n$$          & $$ndvi_irr_n$$                      & $$ndvi_cons_n$$                     & $$ndvi_irr_all_n$$              & $$evi_cropsuit_n$$          & $$evi_irr_n$$                      & $$evi_cons_n$$                     & $$evi_irr_all_n$$             \\
+R2                     & $$ndvi_cropsuit_r2$$         & $$ndvi_irr_r2$$                     & $$ndvi_cons_r2$$                    & $$ndvi_irr_all_r2$$             & $$evi_cropsuit_r2$$         & $$evi_irr_r2$$                     & $$evi_cons_r2$$                    & $$evi_irr_all_r2$$            \\
+\hline \\
+
+\multicolumn{9}{l}{\textit{Panel B. NDVI/EVI on district agricultural output}} \\ 
+\hline \hline 
+\vspace{-.7mm}
+                       & \multicolumn{4}{c}{NDVI} & \multicolumn{4}{c}{EVI}\\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+                    & (1)                         & (2)                              &  (3)                       & (4)                              & (5)                        & (6)                             &  (7)                      & (8)                                \\ 
+\hline                                                                                                                                                                                                                                                                               
+Agricultural output & $$ndvi_ddp_state_beta$$     & $$ndvi_ddp_state_year_beta$$     & $$ndvi_ddp_dist_beta$$     & $$ndvi_ddp_dist_year_beta$$      & $$evi_ddp_state_beta$$     & $$evi_ddp_state_year_beta$$     & $$evi_ddp_dist_beta$$     & $$evi_ddp_dist_year_beta$$ \\
+                    & ($$ndvi_ddp_state_se$$)     & ($$ndvi_ddp_state_year_se$$)     & ($$ndvi_ddp_dist_se$$)     & ($$ndvi_ddp_dist_year_se$$)      & ($$evi_ddp_state_se$$)     & ($$evi_ddp_state_year_se$$)     & ($$evi_ddp_dist_se$$)     & ($$evi_ddp_dist_year_se$$)     \\
+\hline                                                                                                                                                                                                                                                                               
+Fixed effects       & State                       & State-Year                       & District                   & District, Year                   & State                      & State-Year                      & District                  & District, Year                     \\
+\hline                                                                                                                                                                                                                                                                               
+N                   & $$ndvi_ddp_state_n$$        & $$ndvi_ddp_state_year_n$$        & $$ndvi_ddp_dist_n$$        & $$ndvi_ddp_dist_year_n$$         & $$evi_ddp_state_n$$        & $$evi_ddp_state_year_n$$        & $$evi_ddp_dist_n$$        & $$evi_ddp_dist_year_n$$        \\
+R2                  & $$ndvi_ddp_state_r2$$       & $$ndvi_ddp_state_year_r2$$       & $$ndvi_ddp_dist_r2$$       & $$ndvi_ddp_dist_year_r2$$        & $$evi_ddp_state_r2$$       & $$evi_ddp_state_year_r2$$       & $$evi_ddp_dist_r2$$       & $$evi_ddp_dist_year_r2$$       \\
+\hline
+\multicolumn{9}{p{\linewidth}}{\footnotesize \tablenote}
+\end{tabular} }
+\setbox0=\hbox{\contents}
+\setlength{\linewidth}{\wd0-2\tabcolsep-.25em} \contents \end{center}

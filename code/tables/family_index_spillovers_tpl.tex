@@ -1,0 +1,19 @@
+\setlength{\linewidth}{.1cm} \begin{center} 
+\newcommand{\contents}{\begin{tabular}{l c c c c c c} 
+%\newcommand{\contents}{\begin{tabular}{l*{4}{c}}
+
+\hline \hline
+                    & Transportation              &  Ag occupation & Firms                 &  Ag production                & Consumption & Unemployment rate  \\
+\hline                                                                                                                                                       
+New road            & $$transport_5k_beta$$       & $$occupation_5k_beta$$       & $$firms_5k_beta$$     & $$agriculture_5k_beta$$     & $$consumption_5k_beta$$  & $$unemp_5k_beta$$       \\
+                    & ($$transport_5k_se$$)       & ($$occupation_5k_se$$)       & ($$firms_5k_se$$)     & ($$agriculture_5k_se$$)     &($$consumption_5k_se$$)   &($$unemp_5k_se$$)       \\
+\hline                                                                                                                                                                         
+p-value             & $$transport_5k_p$$          & $$occupation_5k_p$$          & $$firms_5k_p$$        & $$agriculture_5k_p$$        & $$consumption_5k_p$$     & $$unemp_5k_p$$        \\
+N                   & $$transport_5k_n$$          & $$occupation_5k_n$$          & $$firms_5k_n$$        & $$agriculture_5k_n$$        & $$consumption_5k_n$$     & $$unemp_5k_n$$          \\
+R2                  & $$transport_5k_r2$$         & $$occupation_5k_r2$$         & $$firms_5k_r2$$       & $$agriculture_5k_r2$$       & $$consumption_5k_r2$$    & $$unemp_5k_r2$$         \\
+\hline
+
+\multicolumn{7}{p{\linewidth}}{\footnotesize \tablenote}
+\end{tabular} }
+\setbox0=\hbox{\contents}
+\setlength{\linewidth}{\wd0-2\tabcolsep-.25em} \contents \end{center}

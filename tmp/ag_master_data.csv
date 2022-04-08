@@ -1,0 +1,97 @@
+ndvi_delta_p, 0.51
+ndvi_delta_beta, 0.017
+ndvi_delta_starbeta, 0.017
+ndvi_delta_se, 0.026
+ndvi_delta_n,11333
+ndvi_delta_r2, 0.71
+ndvi_delta_mean,  8.236
+ndvi_delta_sd,0.273
+evi_delta_p, 0.28
+evi_delta_beta, 0.035
+evi_delta_starbeta, 0.035
+evi_delta_se, 0.033
+evi_delta_n,11333
+evi_delta_r2, 0.72
+evi_delta_mean,  7.957
+evi_delta_sd,0.336
+ndvi_cumul_p, 0.98
+ndvi_cumul_beta, 0.000
+ndvi_cumul_starbeta, 0.000
+ndvi_cumul_se, 0.013
+ndvi_cumul_n,11332
+ndvi_cumul_r2, 0.89
+ndvi_cumul_mean, 10.507
+ndvi_cumul_sd,0.218
+evi_cumul_p, 0.94
+evi_cumul_beta,-0.001
+evi_cumul_starbeta,-0.001
+evi_cumul_se, 0.015
+evi_cumul_n,11332
+evi_cumul_r2, 0.86
+evi_cumul_mean, 10.159
+evi_cumul_sd,0.222
+ndvi_max_p, 0.44
+ndvi_max_beta, 0.011
+ndvi_max_starbeta, 0.011
+ndvi_max_se, 0.014
+ndvi_max_n,11333
+ndvi_max_r2, 0.82
+ndvi_max_mean,  8.801
+ndvi_max_sd,0.181
+evi_max_p, 0.25
+evi_max_beta, 0.022
+evi_max_starbeta, 0.022
+evi_max_se, 0.019
+evi_max_n,11333
+evi_max_r2, 0.72
+evi_max_mean,  8.470
+evi_max_sd,0.195
+mech_farm_p, 0.77
+mech_farm_beta,-0.004
+mech_farm_starbeta,-0.004
+mech_farm_se, 0.012
+mech_farm_n,11431
+mech_farm_r2, 0.26
+mech_farm_mean,0.040
+irr_equip_p, 0.95
+irr_equip_beta, 0.002
+irr_equip_starbeta, 0.002
+irr_equip_se, 0.028
+irr_equip_n,11432
+irr_equip_r2, 0.43
+irr_equip_mean,0.141
+land_own_p, 0.87
+land_own_beta, 0.006
+land_own_starbeta, 0.006
+land_own_se, 0.036
+land_own_n,11432
+land_own_r2, 0.39
+land_own_mean,0.570
+ag_acre_p, 0.63
+ag_acre_beta, 0.040
+ag_acre_starbeta, 0.040
+ag_acre_se, 0.081
+ag_acre_n,11165
+ag_acre_r2, 0.73
+ag_acre_mean,5.046
+any_noncalorie_p, 0.92
+any_noncalorie_beta,-0.003
+any_noncalorie_starbeta,-0.003
+any_noncalorie_se, 0.033
+any_noncalorie_n,8272
+any_noncalorie_r2, 0.50
+any_noncalorie_mean,0.058
+any_noncerpul_p, 0.68
+any_noncerpul_beta, 0.030
+any_noncerpul_starbeta, 0.030
+any_noncerpul_se, 0.073
+any_noncerpul_n,8272
+any_noncerpul_r2, 0.45
+any_noncerpul_mean,0.393
+any_perish_p, 0.15
+any_perish_beta, 0.042
+any_perish_starbeta, 0.042
+any_perish_se, 0.029
+any_perish_n,8272
+any_perish_r2, 0.21
+any_perish_mean,0.028

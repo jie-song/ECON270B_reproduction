@@ -1,0 +1,29 @@
+\setlength{\linewidth}{.1cm} \begin{center} 
+\newcommand{\contents}{\begin{tabular}{l c c c c c c} 
+\multicolumn{7}{l}{\textit{Panel A. Impact by household landholding}} \\ \hhline{>{\doublerulesepcolor{white}}=====~~}
+                    &    Landless               &       0-2 Acres     &       2-4 Acres      &    4+ Acres         & & \\
+\cline{1-5}                                                                                                    
+New road            & $$acrelandless_beta$$     & $$acre02_beta$$     & $$acre24_beta$$      & $$acre4p_beta$$     & & \\
+                    & ($$acrelandless_se$$)     & ($$acre02_se$$)     & ($$acre24_se$$)      & ($$acre4p_se$$)       & & \\
+\cline{1-5}                                                                                                         
+Control group mean  & $$acrelandless_mean$$ & $$acre02_mean$$     & $$acre24_mean$$      & $$acre4p_mean$$     & & \\
+N                   & $$acrelandless_n$$    & $$acre02_n$$        & $$acre24_n$$         & $$acre4p_n$$        & & \\
+R2                  & $$acrelandless_r2$$   & $$acre02_r2$$       & $$acre24_r2$$        & $$acre4p_r2$$       & & \\
+\cline{1-5} \\
+
+\multicolumn{7}{l}{\textit{Panel B. Impact by age and gender}} \\ \hhline{>{\doublerulesepcolor{white}}=======}
+                    &\multicolumn{2}{c}{All}        &\multicolumn{2}{c}{Male}       &\multicolumn{2}{c}{Female}     \\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+                    &       21-40         &       41-60         &       21-40         &       41-60         &       21-40         &     41-60             \\
+\hline
+New road            & $$p21_40_beta$$     & $$p41_60_beta$$     & $$m21_40_beta$$     & $$m41_60_beta$$     & $$f21_40_beta$$     & $$f41_60_beta$$       \\
+                    & ($$p21_40_se$$)     & ($$p41_60_se$$)     & ($$m21_40_se$$)     & ($$m41_60_se$$)     & ($$f21_40_se$$)     & ($$f41_60_se$$)        \\
+\hline
+Control group mean  & $$p21_40_mean$$     &  $$p41_60_mean$$    & $$m21_40_mean$$     & $$m41_60_mean$$     &  $$f21_40_mean$$    & $$f41_60_mean$$   \\
+N                   & $$p21_40_n$$        &  $$p41_60_n$$       & $$m21_40_n$$        & $$m41_60_n$$        &  $$f21_40_n$$       & $$f41_60_n$$   \\
+R2                  & $$p21_40_r2$$       &  $$p41_60_r2$$      & $$m21_40_r2$$       & $$m41_60_r2$$       &  $$f21_40_r2$$      & $$f41_60_r2$$   \\
+\hline
+
+\multicolumn{7}{p{\linewidth}}{\footnotesize \tablenote}
+\end{tabular} }
+\setbox0=\hbox{\contents}
+\setlength{\linewidth}{\wd0-2\tabcolsep-.25em} \contents \end{center}

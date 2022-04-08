@@ -1,0 +1,66 @@
+transport_p, 0.03
+transport_beta, 0.410
+transport_starbeta,0.410**
+transport_se, 0.187
+transport_n,11432
+transport_r2, 0.18
+transport_5k_p, 0.72
+transport_5k_beta,-0.049
+transport_5k_starbeta,-0.049
+transport_5k_se, 0.135
+transport_5k_n,11403
+transport_5k_r2, 0.51
+occupation_p, 0.03
+occupation_beta,-0.341
+occupation_starbeta,-0.341**
+occupation_se, 0.160
+occupation_n,11432
+occupation_r2, 0.28
+occupation_5k_p, 1.00
+occupation_5k_beta,-0.001
+occupation_5k_starbeta,-0.001
+occupation_5k_se, 0.132
+occupation_5k_n,11403
+occupation_5k_r2, 0.52
+firms_p, 0.09
+firms_beta, 0.269
+firms_starbeta,0.269*
+firms_se, 0.157
+firms_n,10678
+firms_r2, 0.30
+firms_5k_p, 0.24
+firms_5k_beta,-0.165
+firms_5k_starbeta,-0.165
+firms_5k_se, 0.141
+firms_5k_n,11403
+firms_5k_r2, 0.46
+agriculture_p, 0.51
+agriculture_beta, 0.082
+agriculture_starbeta, 0.082
+agriculture_se, 0.124
+agriculture_n,11432
+agriculture_r2, 0.53
+agriculture_5k_p, 0.72
+agriculture_5k_beta, 0.036
+agriculture_5k_starbeta, 0.036
+agriculture_5k_se, 0.100
+agriculture_5k_n,11403
+agriculture_5k_r2, 0.71
+consumption_p, 0.81
+consumption_beta, 0.033
+consumption_starbeta, 0.033
+consumption_se, 0.137
+consumption_n,11432
+consumption_r2, 0.50
+consumption_5k_p, 0.60
+consumption_5k_beta, 0.060
+consumption_5k_starbeta, 0.060
+consumption_5k_se, 0.114
+consumption_5k_n,11403
+consumption_5k_r2, 0.65
+unemp_5k_p, 0.45
+unemp_5k_beta,-0.007
+unemp_5k_starbeta,-0.007
+unemp_5k_se, 0.009
+unemp_5k_n,11403
+unemp_5k_r2, 0.70

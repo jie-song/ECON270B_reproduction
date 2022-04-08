@@ -1,0 +1,35 @@
+\setlength{\linewidth}{.1cm} \begin{center} 
+\newcommand{\contents}{\begin{tabular}{l c c c c c c} 
+
+    \multicolumn{7}{l}{\textit{Panel A. Agricultural yields (log)}}                  \\ 
+\hline \hline
+                    &\multicolumn{3}{c}{NDVI} &\multicolumn{3}{c}{EVI}\\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+                    & Max - June        & Cumulative           & Max           & Max - June        & Cumulative           & Max                 \\
+\cline{1-7}                                                                                                                                                      
+New road            & $$ndvi_delta_beta$$   & $$ndvi_cumul_beta$$       & $$ndvi_max_beta$$  & $$evi_delta_beta$$   & $$evi_cumul_beta$$       & $$evi_max_beta$$        \\
+                    &($$ndvi_delta_se$$)    &($$ndvi_cumul_se$$)        &($$ndvi_max_se$$)   &($$evi_delta_se$$)    &($$evi_cumul_se$$)        &($$evi_max_se$$)         \\
+\cline{1-7}  
+Control group mean  & $$ndvi_delta_mean$$   & $$ndvi_cumul_mean$$       & $$ndvi_max_mean$$  & $$evi_delta_mean$$   & $$evi_cumul_mean$$       & $$evi_max_mean$$        \\
+Control group SD    & $$ndvi_delta_sd$$     & $$ndvi_cumul_sd$$         & $$ndvi_max_sd$$    & $$evi_delta_sd$$     & $$evi_cumul_sd$$         & $$evi_max_sd$$          \\
+N                   & $$ndvi_delta_n$$      & $$ndvi_cumul_n$$          & $$ndvi_max_n$$     & $$evi_delta_n$$      & $$evi_cumul_n$$          & $$evi_max_n$$           \\
+R2                  & $$ndvi_delta_r2$$     & $$ndvi_cumul_r2$$         & $$ndvi_max_r2$$    & $$evi_delta_r2$$     & $$evi_cumul_r2$$         & $$evi_max_r2$$          \\
+\cline{1-7} \\
+
+\multicolumn{6}{l}{\textit{Panel B. Agricultural inputs}}                                                                       \\ 
+\hhline{>{\doublerulesepcolor{white}}======}
+                    & Mechanized Farm     &  Irrigation                       & Land Ownership        &  Non-cereal/pulse  & Cultivated land  \\
+                    & Equipment           &  Equipment                        &                       &  crop              & (log)            \\
+\cline{1-6}
+New road            & $$mech_farm_beta$$       & $$irr_equip_beta$$       & $$land_own_beta$$     & $$any_noncerpul_beta$$     & $$ag_acre_beta$$       \\
+                    & ($$mech_farm_se$$)       & ($$irr_equip_se$$)       & ($$land_own_se$$)     & ($$any_noncerpul_se$$)     & ($$ag_acre_se$$)       \\
+\cline{1-6}
+Control group mean  & $$mech_farm_mean$$       & $$irr_equip_mean$$       & $$land_own_mean$$     & $$any_noncerpul_mean$$     & $$ag_acre_mean$$       \\
+N                   & $$mech_farm_n$$          & $$irr_equip_n$$          & $$land_own_n$$        & $$any_noncerpul_n$$        & $$ag_acre_n$$          \\
+R2                  & $$mech_farm_r2$$         & $$irr_equip_r2$$         & $$land_own_r2$$       & $$any_noncerpul_r2$$       & $$ag_acre_r2$$         \\
+\cline{1-6}
+
+\multicolumn{6}{p{\linewidth}}{\footnotesize \tablenote}
+\end{tabular} }
+\setbox0=\hbox{\contents}
+\setlength{\linewidth}{\wd0-2\tabcolsep-.25em} \contents \end{center}

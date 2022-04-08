@@ -1,0 +1,36 @@
+\setlength{\linewidth}{.1cm} \begin{center} 
+\newcommand{\contents}{\begin{tabular}{l c c c c c} 
+%\newcommand{\contents}{\begin{tabular}{l*{4}{c}}
+
+\multicolumn{5}{l}{\textit{Panel A. Consumption and earnings}} \\ 
+\cmidrule{1-5}\morecmidrules\cmidrule{1-5}
+%\hline \hline 
+%\hhline{>{\doublerulesepcolor{white}}=====}
+                    & Consumption per  & Poverty rate               & Night lights       & Share of HH                    \\
+                    & capita (log)     &                            & (log)              & earning $\geq$ INR 5k          \\
+\cline{1-5}                                                                                                        
+New road            & $$pc_beta$$      & $$pov_rate_tend_beta$$     & $$light_beta$$ & $$inc_5k_plus_beta$$       \\
+                    & ($$pc_se$$)      & ($$pov_rate_tend_se$$)     & ($$light_se$$)     & ($$inc_5k_plus_se$$)           \\
+\cline{1-5}                                                                                                                    
+Control group mean  & $$secc_conspcwinln_mean_mean$$      & $$secc_pov_rate_tend_mean_mean$$     & $$light_mean$$     & $$inc_5k_plus_mean$$           \\
+N                   & $$pc_n$$         & $$pov_rate_tend_n$$        & $$light_n$$        & $$inc_5k_plus_n$$              \\
+R2                  & $$pc_r2$$        & $$pov_rate_tend_r2$$       & $$light_r2$$       & $$inc_5k_plus_r2$$             \\
+\cline{1-5} \\
+
+\multicolumn{6}{l}{\textit{Panel B. Asset ownership}} \\ 
+\hline \hline 
+%\hhline{>{\doublerulesepcolor{white}}======}
+                    & Asset index               & Solid house               &  Refrigerator       & Vehicle              & Phone              \\ 
+\hline                                                                                                                                       
+New road            & $$asset_index_norm_beta$$ & $$solid_house_beta$$ & $$refrig_beta$$ & $$veh_any_beta$$ & $$phone_beta$$ \\
+                    & ($$asset_index_norm_se$$)     & ($$solid_house_se$$)     & ($$refrig_se$$)     & ($$veh_any_se$$)     & ($$phone_se$$)     \\
+\hline                                                                                                                                       
+Control group mean  & $$asset_index_norm_mean$$     & $$solid_house_mean$$     & $$refrig_mean$$     & $$veh_any_mean$$     & $$phone_mean$$     \\
+N                   & $$asset_index_norm_n$$        & $$solid_house_n$$        & $$refrig_n$$        & $$veh_any_n$$        & $$phone_n$$        \\
+R2                  & $$asset_index_norm_r2$$       & $$solid_house_r2$$       & $$refrig_r2$$       & $$veh_any_r2$$       & $$phone_r2$$       \\
+\hline
+
+\multicolumn{6}{p{\linewidth}}{\footnotesize \tablenote}
+\end{tabular} }
+\setbox0=\hbox{\contents}
+\setlength{\linewidth}{\wd0-2\tabcolsep-.25em} \contents \end{center}

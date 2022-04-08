@@ -1,0 +1,20 @@
+\setlength{\linewidth}{.1cm} \begin{center} 
+\newcommand{\contents}{\begin{tabular}{l c c c c c} 
+%\newcommand{\contents}{\begin{tabular}{l*{4}{c}}
+
+\hhline{>{\doublerulesepcolor{white}}======}
+                    & Transportation           & Ag occupation             & Firms              &  Ag production           & Consumption  \\
+\hline                                                                                                                                                       
+New road            & $$transport_beta$$       & $$occupation_beta$$       & $$firms_beta$$     & $$agriculture_beta$$     & $$consumption_beta$$    \\
+                    & ($$transport_se$$)       & ($$occupation_se$$)       & ($$firms_se$$)     & ($$agriculture_se$$)     & ($$consumption_se$$)    \\
+\hline                                                                                                                                                  
+p-value             & $$transport_p$$          & $$occupation_p$$          & $$firms_p$$        & $$agriculture_p$$        & $$consumption_p$$        \\
+N                   & $$transport_n$$          & $$occupation_n$$          & $$firms_n$$        & $$agriculture_n$$        & $$consumption_n$$        \\
+R2                  & $$transport_r2$$         & $$occupation_r2$$         & $$firms_r2$$       & $$agriculture_r2$$       & $$consumption_r2$$       \\
+\hline
+
+
+\multicolumn{6}{p{\linewidth}}{\footnotesize \tablenote}
+\end{tabular} }
+\setbox0=\hbox{\contents}
+\setlength{\linewidth}{\wd0-2\tabcolsep-.25em} \contents \end{center}
